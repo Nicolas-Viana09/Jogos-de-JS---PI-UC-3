@@ -1,0 +1,25 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+      
+}
+.content{
+    background: linear-gradient(120deg, #fdc3f5 , #66c4f0);
+    min-height: 100vh; /*Aumenta só o tamanho do Linear Gradient*/
+    padding-top: 40px; /*Pra não ser sobreposto pela navbar*/
+}
+.card-nome {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+}
+.card-nome h2 {
+    margin-top: 0;
+}
+.texto {
+    font-style: italic;
+}

@@ -1,0 +1,24 @@
+body{
+    background: linear-gradient(120deg, #fdc3f5 0%, #66c4f0 100%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 100%;
+}
+
+.fundo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+    padding: 150px 10px;
+    background-color: #26a9ddab;
+    text-align: center;
+}
+h1{
+    font-size: 5em;
+    color: #FFF;
+}
+h2{
+    color: #FFF;
+}
+
+ 

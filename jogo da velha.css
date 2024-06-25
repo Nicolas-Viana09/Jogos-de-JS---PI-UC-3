@@ -1,0 +1,94 @@
+.nome {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: -75px;
+}
+.navbar {
+    margin-bottom: 20px;
+}
+
+.table td {
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+}
+ /* Ajustes para tamanhos menores */
+ @media (max-width: 767.98px) {
+    .imagemfundo {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    fieldset {
+        width: 100%;
+    }
+}
+
+
+table {
+    justify-content: center;
+    width: 550px;
+    height: 350px;
+    border: 1px solid black;
+    max-width: 550px;   
+}
+
+table tr {
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    font: bold 46px Verdana;
+    color: rgb(0, 0, 0)
+}
+
+table tr td {
+    text-align: center;
+    align-content: center;
+    width: 33.33%
+}
+
+table tr td:hover {
+    cursor: pointer
+}
+
+input[type=button] {
+    justify-content: center;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px
+}
+
+fieldset {
+    justify-content: center;
+    font-size: 20;
+    font-weight: bold;
+    border: 2px solid rgb(255, 255, 255);
+    width: 300px;
+    margin-bottom: 25px
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg, #fdc3f5 0%, #66c4f0 100%);
+    background-size: cover;
+    background-position: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+
+.imagemfundo {
+    background-size: cover;
+    background: rgba(209, 203, 208, 0);
+    padding: 20px;
+    height: 600px;
+    width: 1300px;
+    margin-top: 50px;
+}
+
