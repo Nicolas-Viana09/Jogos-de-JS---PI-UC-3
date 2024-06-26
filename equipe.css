@@ -6,8 +6,8 @@ body {
 }
 .content{
     background: linear-gradient(120deg, #fdc3f5 , #66c4f0);
-    min-height: 100vh; /*Aumenta só o tamanho do Linear Gradient*/
-    padding-top: 40px; /*Pra não ser sobreposto pela navbar*/
+    min-height: 100vh; 
+    padding-top: 40px; 
 }
 .card-nome {
     text-align: center;

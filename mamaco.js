@@ -89,7 +89,6 @@ squares.forEach(square => {
     }
 });
 if (sequence.length === 0) {
-    result.textContent = "Correto! Avance para o próximo nível.";
     level++;
     setTimeout(function () {
         result.textContent = "";
@@ -98,10 +97,9 @@ if (sequence.length === 0) {
     }, 1000);
 }
 } else {
-result.textContent = "Você errou, tente novamente apertando 'Iniciar'!";
 setTimeout(function () {
     squareContainer.innerHTML = "";
     alert("Você errou, pressione F5 para tentar novamente!");
-}, 1000);
+}, 0);
 }
 }
